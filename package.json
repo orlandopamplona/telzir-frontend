@@ -1,0 +1,61 @@
+{
+  "name": "telzir-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.27",
+    "@types/react": "^16.9.20",
+    "@types/react-dom": "^16.9.5",
+    "axios": "^0.19.2",
+    "loglevel": "^1.6.7",
+    "node-fetch": "^2.6.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/src/index.tsx"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/src/common/messages.tsx",
+      "!<rootDir>/src/common/types.tsx",
+      "!<rootDir>/src/react-app-env.d.ts"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^6.12.2",
+    "axios-mock-adapter": "^1.17.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "fetch-mock": "^9.0.0",
+    "react-test-renderer": "^16.13.0"
+  }
+}
