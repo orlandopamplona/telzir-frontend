@@ -10,41 +10,48 @@ Observação: Somente foi realizada a codificação do formulário que realiza a
 
 Os seguintes componentes foram desenvolvidos:
 
-> - alert
+> - alert >
 Elemento quer irá exibir uma mensagem na validação dos campos requeridos.
 
-> - article
+> - article >
 Apresenta notícias diversas em uma estrutura representada por uma imagem e um texto.
 
-> - button
+> - button >
 Apresenta parametrizações de apresentação e permite injetar a ação que será executada ao clicar.
 
-> - comboBox
+> - comboBox >
 Apresenta uma listagem de elementos fornecida externamente com algumas opções de configuração.
 
-> - footer
+> - footer >
 Apresenta icones que representam links para diversas redes sociais para utilização no rodapé da página.
 
-> - input
+> - input >
 Campo que permite a definição do type (ex. número ou texto), da informação que será inserida no mesmo.
 
-> - menu
+> - menu >
 Componente que recebe uma listagem com os itens do menu e os renderiza de acordo.
 
-> - simmulateResult
+> - simmulateResult >
 Elemento quer irá representar o resultado do cálculo da simulação, proporcionando para o usuário o comparativo dos valores.
 
 
 Por padrão, o sistema irá executar localmente na seguinte url: http://localhost:3000), sendo:
 
+**Tela principal do sistema:**
 ![Main screen](./images/screen.png)
+
+**Resultado da simulação:**
+![Simulate screen](./images/screen-result.png)
+
+**Tela em resoluções menores:**
+![Cel screen](./images/screen-cel.png)
 
 
 ## Instalação para desenvolvimento (ambiente e execução)
 
 Necessários o seguinte para a correta execução:
 
-- Instalação do Node.js, [instruções](https://nodejs.org/en/download/)
+- Instalação do Node.js, [clique aqui para as instruções](https://nodejs.org/en/download/)
 
 - Após instalado, abrir um console e digitar:
 
